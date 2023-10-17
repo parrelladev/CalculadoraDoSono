@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do sono</title>
+    <link rel="stylesheet" href="css/style.css"> <!--CSS-->
+    <script src="js/script.js"></script> <!-- JavaScript -->
+    
+</head>
+  <body>
+      <div class="container">
+        <div class="logo">
+          <img src="img/Logo.png" alt="Logo"><br><br>
+        </div>
+          <label for="num1">Digite quantos ciclos você deseja dormir:</label>
+          <input type="number" id="num1"><br><br>
+        <div class="botao">
+          <button onclick="calcularSono()" class="a">Calcular</button>
+          <button onclick="mostrarInstrucoes()">Como usar?</button>
+          <button onclick="limpar()">Limpar</button>
+        </div>
+        <p id="resultado"></p>
+        <button-noturno id="modo-noturno" onclick="alternarModoNoturno()">🌚</button>
+        </div>
+  </body>
+</html>

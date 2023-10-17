@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' , sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8e8e8;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #001430;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #F8F1F1;
+    border-radius: 4px;
+    
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    width: 130px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #F8F1F1;
+    background-color: #004aad;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #001430;
+}
+
+p#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    color:  #001430;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.modo-noturno {
+    background-color: #121212;
+    color: #e8e8e8; /* Defina a cor de fundo e do texto no modo noturno */
+}
+
+.modo-noturno label {
+    color: #e8e8e8; /* Defina a cor do texto para branco no modo noturno */
+}
+
+.modo-noturno p#resultado {
+    color:  #e8e8e8; /* Defina a cor do texto para branco no modo noturno */
+}
+
+/* Estilo do botão no modo noturno ao passar o mouse */
+.modo-noturno .button-noturno:hover {
+    background-color: #9b9b9b;
+}
