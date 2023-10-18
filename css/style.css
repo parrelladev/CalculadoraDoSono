@@ -39,7 +39,7 @@ label {
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    color: #001430;
+    color: #22343e;
 }
 
 select {
@@ -77,13 +77,13 @@ button {
     border-radius: 4px;
     font-size: 16px;
     color: #F8F1F1;
-    background-color: #004aad;
+    background-color: #22343e;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #001430;
+    background-color: #4f616f;
 }
 
 p#resultado {
@@ -93,7 +93,7 @@ p#resultado {
     padding: 10px;
     border-radius: 4px;
     background-color: transparent;
-    color:  #001430;
+    color:  #22343e;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
