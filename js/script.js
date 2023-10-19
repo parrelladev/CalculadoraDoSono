@@ -3,24 +3,9 @@ function calcularSono() {
   if (!isNaN(numCiclos)) {
     const resultado = somarTempo(numCiclos);
     document.getElementById('resultado').textContent = `Se você for dormir agora, deve acordar às ${resultado}. Boa noite! 😴`;
-
-    // Pergunta ao usuário se deseja adicionar um alarme
-    const adicionarAlarme = confirm('Deseja adicionar um alarme para este horário?');
-    
-    if (adicionarAlarme) {
-      // Define a hora de acordar para abrir o aplicativo de alarme
-      const horaDeAcordar = new Date();
-      horaDeAcordar.setHours(parseInt(resultado.split(':')[0]));
-      horaDeAcordar.setMinutes(parseInt(resultado.split(':')[1]));
-      
-      // Formate a hora de acordar em um formato que o aplicativo de alarme Android possa entender
-      const horaFormatada = horaDeAcordar.toISOString().slice(0, 19).replace('T', ' ');
-      
-      // Abra o aplicativo de alarme com o horário pré-definido
-      window.open(`intent:#Intent;action=android.intent.action.SET_ALARM;launchFlags=0x10000000;component=com.android.deskclock/.DeskClock;S.extra.alarm.HOUR=${horaDeAcordar.getHours()};S.extra.alarm.MINUTES=${horaDeAcordar.getMinutes()};end`);
-    }
-  } else {
-    document.getElementById('resultado').textContent = 'Por favor, digite um número válido.';
+  } 
+  else {
+    document.getElementById('resultado').textContent = 'Por favor, selecione um número válido.';
   }
 }
 
