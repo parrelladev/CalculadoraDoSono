@@ -17,7 +17,7 @@ function somarTempo(ciclos) {
 }
 
 function mostrarInstrucoes() {
-  alert("A quantidade de ciclos de 90 minutos que se dorme é variável e depende da necessidade de cada pessoa, porém o segredo é permitir que cada ciclo se complete totalmente, acordando apenas no final deste.\n\nO ciclo de 90 minutos pode ser repetido tantas vezes quanto necessário, até que se consiga recuperar a energia gasta durante o dia.\n\nFique atento, pois o máximo de ciclos recomendados por especialistas são seis.");
+  alert("Para uma boa noite de sono, calcule o tempo de sono em ciclos de 90 minutos e acorde ao final do último ciclo. Adultos geralmente precisam de 4 a 6 desses ciclos, ou seja, 6 a 9 horas de sono por noite. Melhore a qualidade do sono mantendo o ambiente escuro, silencioso e livre de estímulos visuais.\n\nAs vantagens de usar ciclos para dormir incluem:\n\n■ Melhora a disposição ao acordar, pois o despertar ocorre no final de um ciclo, quando o sono é mais leve.\n■ Evita interrupções durante fases profundas do sono.\n■ Promove uma recuperação energética mais eficaz.");
   document.getElementById('resultado').textContent = instrucoes;
 }
 
