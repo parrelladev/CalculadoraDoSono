@@ -87,7 +87,8 @@ button:hover {
 }
 
 p#resultado {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
