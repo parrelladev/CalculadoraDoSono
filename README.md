@@ -16,12 +16,6 @@ Este é um projeto de uma calculadora simples que ajuda a determinar a hora idea
 * CSS
 * JavaScript
 
-## Desenvolvido por:
-
-#### Ângelo Parrella
-
----
-
 **Aproveite a Calculadora do Sono!** 😴🌙
 
 
